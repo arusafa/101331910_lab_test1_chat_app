@@ -1,0 +1,30 @@
+{
+  "name": "101331910-chat-app-lab-test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "lab",
+    "test1"
+  ],
+  "author": "SafaAru",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.1",
+    "redis": "^4.6.4",
+    "socket.io": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
